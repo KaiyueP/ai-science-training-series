@@ -1,0 +1,62 @@
+What is an LLM?
+
+LADY GREY:
+The time know efore then pursuive is despite?
+
+KING EDWARD IV:
+For what, I partly them? sweet in the sun
+As tale a beggar's humbling arms and from him:
+What, if this manlance of the duke leave.
+
+GLOUCESTER:
+Breaks the world will avoid to have 
+
+wandb: 
+wandb: Run history:
+wandb:                      Loss/iter ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:                     Loss/lossf █▆▆▆▆▆▆▆▆▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                       Loss/mfu ████████████████████████▇██████████████▁
+wandb:                     Loss/train ████▅▅▅▅▄▄▄▄▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                       Loss/val ████▃▃▃▃▃▃▃▃▁▁▁▁▁▁▁▁▁▁▁▁▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅
+wandb:                  Timing/dt_avg ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+wandb:                 Timing/dt_iter ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+wandb:                  Timing/dt_tot ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+wandb:                 Timing/dtb_avg ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+wandb:                 Timing/dtb_tot ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+wandb:                 Timing/dtf_avg ▂▁▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁█▁▂▁▁▁▁▁▁▁▁▁▂▁▁▁▂
+wandb:                 Timing/dtf_tot ▂▁▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁█▁▂▁▁▁▁▁▁▁▁▁▂▁▁▁▂
+wandb:                    Timing/iter ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         Timing/samples_per_sec ███████████████████████████████████████▁
+wandb: Timing/samples_per_sec_per_gpu ███████████████████████████████████████▁
+wandb:            Timing/startup_time ▁
+wandb:          Timing/tokens_per_sec ███████████████████████████████████████▁
+wandb:  Timing/tokens_per_sec_per_gpu ███████████████████████████████████████▁
+wandb:                  Training/iter ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:                  Training/loss █▆▆▆▆▆▆▆▆▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:              Training/loss_tot █▆▆▆▆▆▆▆▆▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                    Training/lr ▁▃▅▆████████████████████████████████████
+wandb: 
+wandb: Run summary:
+wandb:                      Loss/iter 1000
+wandb:                     Loss/lossf 0.07234
+wandb:                       Loss/mfu 43.72736
+wandb:                     Loss/train 0.08811
+wandb:                       Loss/val 3.41983
+wandb:                  Timing/dt_avg 0.17337
+wandb:                 Timing/dt_iter 0.61265
+wandb:                  Timing/dt_tot 0.34675
+wandb:                 Timing/dtb_avg 0.34049
+wandb:                 Timing/dtb_tot 0.34049
+wandb:                 Timing/dtf_avg 0.00626
+wandb:                 Timing/dtf_tot 0.00626
+wandb:                    Timing/iter 999
+wandb:         Timing/samples_per_sec 3.26452
+wandb: Timing/samples_per_sec_per_gpu 1.63226
+wandb:            Timing/startup_time 6.25891
+wandb:          Timing/tokens_per_sec 213943.8623
+wandb:  Timing/tokens_per_sec_per_gpu 106971.93115
+wandb:                  Training/iter 999
+wandb:                  Training/loss 0.07234
+wandb:              Training/loss_tot 0.07234
+wandb:                    Training/lr 0.0006
+wandb: 
