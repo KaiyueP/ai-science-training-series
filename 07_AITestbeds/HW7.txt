@@ -1,1 +1,4 @@
-HW
+1. What are the key architectural features that make these systems suitable for AI workloads?
+Identify the primary differences between these AI accelerator systems in terms of their architecture and programming models.
+Based on hands-on sessions, describe a typical workflow for refactoring an AI model to run on one of ALCF's AI testbeds (e.g., SambaNova or Cerebras). What tools or software stacks are typically used in this process?
+Give an example of a project that would benefit from AI accelerators and why?
