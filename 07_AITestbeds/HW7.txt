@@ -1,4 +1,16 @@
 1. What are the key architectural features that make these systems suitable for AI workloads?
-Identify the primary differences between these AI accelerator systems in terms of their architecture and programming models.
-Based on hands-on sessions, describe a typical workflow for refactoring an AI model to run on one of ALCF's AI testbeds (e.g., SambaNova or Cerebras). What tools or software stacks are typically used in this process?
-Give an example of a project that would benefit from AI accelerators and why?
+Q: high parallelism, specialized accelerators, large high-bandwidth memory, efficient interconnects, and support for mixed precision computation, ensuring scalable, energy-efficient performance.
+Reference Q: Specialized Hardware Design to accelerate matrix multiplications and tensor operations.
+High Memory Bandwidth and larger amount of on-chip memory help to accelerate memory intensive AI worklaods.
+Scalability and Parallelism: Parallel processing of data across many cores or processing units, which significantly speeds up training and inference tasks
+
+2. Identify the primary differences between these AI accelerator systems in terms of their architecture and programming models.
+Q: The primary differences between AI accelerator systems lie in their architecture, such as tensor core designs (e.g., NVIDIA GPUs) versus systolic arrays (e.g., TPUs), memory hierarchies, and interconnects, and in their programming models, with some relying on proprietary ecosystems like CUDA for NVIDIA GPUs, while others use open frameworks (e.g., TPUs with TensorFlow XLA), or hardware-specific APIs like SYCL for diverse accelerators.
+Reference Q: Sambanovas Reconfigurable Dataflow Unit (RDU) allows for flexible dataflow processing that features a multi-tiered memory architecture with terabytes of addressable memory for efficinet handling of large data.
+Cerebras Wafer-Scale Engine (WSE) consists of processing elements (PEs) with its own memory and operates independently. Fine-grained dataflow control mechanism within its PEs make the system highly parallel and scalable.
+Graphcore’s Intelligence Processing Unit (IPU) consists of many interconnected processing tiles, each with its own core and local memory. The IPU operates in two phases—computation and communication—using Bulk Synchronous Parallelism (BSP).
+Groq’s Tensor Streaming Processor (TSP) architecture focuses on deterministic execution which s particularly advantageous for inference tasks where low latency is critical.
+
+3. Based on hands-on sessions, describe a typical workflow for refactoring an AI model to run on one of ALCF's AI testbeds (e.g., SambaNova or Cerebras). What tools or software stacks are typically used in this process?
+Give an example of a project that would benefit from AI accelerators and why?.
+Q: Analyze the AI model to identify performance bottlenecks, memory requirements, and parallelization opportunities using tools like TensorBoard or PyTorch Profiler.
